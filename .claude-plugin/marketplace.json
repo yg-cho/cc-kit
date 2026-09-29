@@ -1,0 +1,16 @@
+{
+  "name": "cc-kit",
+  "owner": {
+    "name": "yg-cho"
+  },
+  "metadata": {
+    "description": "개인·팀 공용 Claude Code 플러그인 모음"
+  },
+  "plugins": [
+    {
+      "name": "bulk-reader",
+      "source": "./plugins/bulk-reader",
+      "description": "큰 파일 전체 읽기를 막고 Sonnet 서브에이전트 요약으로 위임해 메인 컨텍스트를 보호"
+    }
+  ]
+}
